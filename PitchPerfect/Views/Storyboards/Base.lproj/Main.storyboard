@@ -64,8 +64,11 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playSoundForButton:" destination="rdA-bl-ggd" eventType="touchUpInside" id="OTo-Ek-0FG"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMo-BY-giK">
+                                                    <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NMo-BY-giK">
                                                         <rect key="frame" x="171" y="0.0" width="151" height="151"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="NMo-BY-giK" secondAttribute="height" multiplier="1:1" id="3VE-JX-j7c"/>
@@ -76,6 +79,9 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playSoundForButton:" destination="rdA-bl-ggd" eventType="touchUpInside" id="Zyv-8N-ebk"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <variation key="heightClass=compact" axis="vertical"/>
@@ -83,7 +89,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="uMX-D6-eOO">
                                                 <rect key="frame" x="0.0" y="171" width="322" height="151"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-3H-XhP">
+                                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AQ-3H-XhP">
                                                         <rect key="frame" x="0.0" y="0.0" width="151" height="151"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="8AQ-3H-XhP" secondAttribute="height" multiplier="1:1" id="y60-Q8-45n"/>
@@ -94,8 +100,11 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playSoundForButton:" destination="rdA-bl-ggd" eventType="touchUpInside" id="dDb-gs-QKP"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osW-82-cqS">
+                                                    <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="osW-82-cqS">
                                                         <rect key="frame" x="171" y="0.0" width="151" height="151"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="osW-82-cqS" secondAttribute="height" multiplier="1:1" id="wfs-o9-7Lo"/>
@@ -106,6 +115,9 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playSoundForButton:" destination="rdA-bl-ggd" eventType="touchUpInside" id="0xh-kL-qMc"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <variation key="heightClass=compact" axis="vertical"/>
@@ -113,7 +125,7 @@
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="IhT-fH-ZGa">
                                                 <rect key="frame" x="0.0" y="342" width="322" height="151"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lr0-j6-Wde">
+                                                    <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lr0-j6-Wde">
                                                         <rect key="frame" x="0.0" y="0.0" width="151" height="151"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="lr0-j6-Wde" secondAttribute="height" id="Csd-IX-Pfj"/>
@@ -124,8 +136,11 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playSoundForButton:" destination="rdA-bl-ggd" eventType="touchUpInside" id="Tcl-yq-tD5"/>
+                                                        </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e90-e6-ezE">
+                                                    <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="fill" contentVerticalAlignment="fill" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e90-e6-ezE">
                                                         <rect key="frame" x="171" y="0.0" width="151" height="151"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="e90-e6-ezE" secondAttribute="height" multiplier="1:1" id="Bx6-bu-n4h"/>
@@ -136,6 +151,9 @@
                                                                 <integer key="value" value="1"/>
                                                             </userDefinedRuntimeAttribute>
                                                         </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="playSoundForButton:" destination="rdA-bl-ggd" eventType="touchUpInside" id="gTX-fU-HNA"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <variation key="heightClass=compact" axis="vertical"/>
@@ -151,6 +169,9 @@
                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="70" id="cwT-cA-6Ra"/>
                                         </constraints>
                                         <state key="normal" backgroundImage="stop_btn"/>
+                                        <connections>
+                                            <action selector="stopButtonPressed:" destination="rdA-bl-ggd" eventType="touchUpInside" id="LG3-8R-d0S"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -173,7 +194,13 @@
                         <viewLayoutGuide key="safeArea" id="lYy-HA-HEA"/>
                     </view>
                     <connections>
-                        <outlet property="teste" destination="awh-Nk-g4a" id="jY9-i3-QSz"/>
+                        <outlet property="chipmunkButton" destination="osW-82-cqS" id="zKT-2n-xk3"/>
+                        <outlet property="echoButton" destination="e90-e6-ezE" id="eh0-qF-Fhb"/>
+                        <outlet property="rabbitButton" destination="lr0-j6-Wde" id="UBX-LR-NIy"/>
+                        <outlet property="reverbButton" destination="NMo-BY-giK" id="pl6-mW-Uac"/>
+                        <outlet property="snailButton" destination="awh-Nk-g4a" id="0Pu-Qk-00f"/>
+                        <outlet property="stopButton" destination="dz8-ce-I7D" id="WF6-Ic-WPv"/>
+                        <outlet property="vaderButton" destination="8AQ-3H-XhP" id="Yob-ek-AVP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ELh-or-UNA" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -195,7 +222,7 @@
                                 <rect key="frame" x="50" y="20" width="275" height="637"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_img" translatesAutoresizingMaskIntoConstraints="NO" id="IJC-GF-Hpf">
-                                        <rect key="frame" x="0.0" y="0.0" width="275" height="240.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="275" height="237"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="IJC-GF-Hpf" secondAttribute="height" multiplier="81:11" id="cnC-cj-XTz"/>
                                         </constraints>
@@ -211,13 +238,13 @@
                                         </variation>
                                     </imageView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="oun-CG-W2M">
-                                        <rect key="frame" x="27.5" y="240.5" width="220" height="396.5"/>
+                                        <rect key="frame" x="27.5" y="237" width="220" height="400"/>
                                         <subviews>
                                             <view contentMode="scaleAspectFit" translatesAutoresizingMaskIntoConstraints="NO" id="rAm-mg-VA3">
-                                                <rect key="frame" x="0.0" y="0.0" width="220" height="146.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="220" height="150"/>
                                                 <subviews>
                                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="balon" translatesAutoresizingMaskIntoConstraints="NO" id="hLh-y0-SYR">
-                                                        <rect key="frame" x="-6" y="46" width="232" height="56"/>
+                                                        <rect key="frame" x="-6" y="47" width="232" height="56"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" secondItem="hLh-y0-SYR" secondAttribute="height" multiplier="29:7" id="Uo2-gz-hWE"/>
                                                             <constraint firstAttribute="width" constant="232" id="dTk-Bp-uKA"/>
@@ -227,7 +254,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to record" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="14" translatesAutoresizingMaskIntoConstraints="NO" id="ICm-Rb-g0a">
-                                                        <rect key="frame" x="47" y="54" width="126" height="29"/>
+                                                        <rect key="frame" x="47" y="56" width="126" height="29"/>
                                                         <fontDescription key="fontDescription" name="BradleyHandITCTT-Bold" family="Bradley Hand" pointSize="23"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                         <nil key="highlightedColor"/>
@@ -242,7 +269,7 @@
                                                 </constraints>
                                             </view>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="A7U-Fx-D5s">
-                                                <rect key="frame" x="20" y="146.5" width="180" height="250"/>
+                                                <rect key="frame" x="20" y="150" width="180" height="250"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yT4-Gi-G5m">
                                                         <rect key="frame" x="0.0" y="0.0" width="180" height="180"/>
