@@ -14,7 +14,6 @@
 		5476A4251FD98E7200F20B64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5476A4231FD98E7200F20B64 /* LaunchScreen.storyboard */; };
 		5476A4341FDAE6A600F20B64 /* BebasNeue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5476A4331FDAE6A500F20B64 /* BebasNeue.otf */; };
 		54F20E9F1FDD682100A2EC96 /* PlaySoundsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F20E9E1FDD682100A2EC96 /* PlaySoundsVC.swift */; };
-		54F20EA11FDED7FB00A2EC96 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F20EA01FDED7FB00A2EC96 /* CustomButton.swift */; };
 		54F20EA31FE540FF00A2EC96 /* PlaySoundsVC+Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54F20EA21FE540FF00A2EC96 /* PlaySoundsVC+Audio.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,7 +27,6 @@
 		5476A4261FD98E7200F20B64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5476A4331FDAE6A500F20B64 /* BebasNeue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = BebasNeue.otf; sourceTree = "<group>"; };
 		54F20E9E1FDD682100A2EC96 /* PlaySoundsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySoundsVC.swift; sourceTree = "<group>"; };
-		54F20EA01FDED7FB00A2EC96 /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		54F20EA21FE540FF00A2EC96 /* PlaySoundsVC+Audio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "PlaySoundsVC+Audio.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -92,7 +90,6 @@
 			isa = PBXGroup;
 			children = (
 				54F20E9D1FDC186A00A2EC96 /* Storyboards */,
-				54F20EA01FDED7FB00A2EC96 /* CustomButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -190,7 +187,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				54F20EA31FE540FF00A2EC96 /* PlaySoundsVC+Audio.swift in Sources */,
-				54F20EA11FDED7FB00A2EC96 /* CustomButton.swift in Sources */,
 				54F20E9F1FDD682100A2EC96 /* PlaySoundsVC.swift in Sources */,
 				5476A41D1FD98E7200F20B64 /* RecorderVC.swift in Sources */,
 				5476A41B1FD98E7200F20B64 /* AppDelegate.swift in Sources */,
