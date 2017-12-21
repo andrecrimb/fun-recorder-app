@@ -9,8 +9,7 @@
 import UIKit
 import AVFoundation
 
-class RecorderVC: UIViewController, AVAudioRecorderDelegate {
-
+class RecorderVC: UIViewController {
     var audioRecorder: AVAudioRecorder!
     
     @IBOutlet weak var recordBtn: UIButton!
@@ -21,10 +20,30 @@ class RecorderVC: UIViewController, AVAudioRecorderDelegate {
         super.viewDidLoad()
         stopRecordingBtn.isEnabled = false
     }
-
-    override func viewWillAppear(_ animated: Bool) {
+    
+   
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "stopRecordingSG"{
+            let playSoundsVC = segue.destination as! PlaySoundsVC
+            let recordedAudioURL = sender as! URL
+            playSoundsVC.recordedAudioURL = recordedAudioURL
+        }
     }
     
+    func customAlert(title: String, message: String){
+        let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+        self.present(alert, animated: true, completion: nil)
+    }
+    
+    func isRecording(recording: Bool){
+        recordingLabel.text = recording ? "Recording..." : "Tap to Record"
+        recordBtn.isEnabled = !recording
+        stopRecordingBtn.isEnabled = recording
+    }
+}
+
+extension RecorderVC: AVAudioRecorderDelegate{
     @IBAction func recordAudio(_ sender: Any) {
         isRecording(recording: true)
         
@@ -54,29 +73,16 @@ class RecorderVC: UIViewController, AVAudioRecorderDelegate {
         if flag {
             performSegue(withIdentifier: "stopRecordingSG", sender: audioRecorder.url)
         } else {
+            customAlert(title: "Ops...", message: "Some problem happened recording.")
             print("ANDRE: Problem Recording")
+            
         }
     }
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "stopRecordingSG"{
-            let playSoundsVC = segue.destination as! PlaySoundsVC
-            let recordedAudioURL = sender as! URL
-            playSoundsVC.recordedAudioURL = recordedAudioURL
-        }
-    }
-    
-    func isRecording(recording: Bool){
-        if recording {
-            recordingLabel.text = "Recording..."
-            recordBtn.isEnabled = false
-            stopRecordingBtn.isEnabled = true
-        } else {
-            recordingLabel.text = "Tap to Record"
-            recordBtn.isEnabled = true
-            stopRecordingBtn.isEnabled = false
-        }
-    }
-    
 }
+
+
+
+
+
+
 
