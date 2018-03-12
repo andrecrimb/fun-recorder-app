@@ -4,6 +4,12 @@ The FunRecorder app is result of **Intro to iOS App Development with Swift** les
 
 The app allows users to record a sound using the device’s microphone. It then allows users to play the recorded sound back with four different sound modulations: Chipmunk, Darth Vader, Slow, Fast with Reverb and Echo effect.
 
+
+![Recorder](https://github.com/andrerosa189/FunRecorder/raw/master/screenshot/main.png)
+![Editor](https://raw.githubusercontent.com/andrerosa189/FunRecorder/master/screenshot/editor.png)
+
+
+
 ## Implementation
 
 The app has two view controller scenes:
